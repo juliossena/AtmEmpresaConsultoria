@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:layout_toStartOf="@+id/textView"
+        android:src="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/detalhes_empresa" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="@dimen/Padrao"
+            android:text="Ainda assim, existem dúvidas a respeito de como a complexidade dos estudos efetuados garante a contribuição de um grupo importante na determinação das condições financeiras e administrativas exigidas. Nunca é demais lembrar o peso e o significado destes problemas, uma vez que o acompanhamento das preferências de consumo estimula a padronização das diretrizes de desenvolvimento para o futuro. No mundo atual, a contínua expansão de nossa atividade ainda não demonstrou convincentemente que vai participar na mudança do sistema de participação geral. Desta maneira, a valorização de fatores subjetivos nos obriga à análise dos métodos utilizados na avaliação de resultados.             Do mesmo modo, o aumento do diálogo entre os diferentes setores produtivos desafia a capacidade de equalização de alternativas às soluções ortodoxas. A prática cotidiana prova que o desenvolvimento contínuo de distintas formas de atuação assume importantes posições no estabelecimento das direções preferenciais no sentido do progresso. Caros amigos, o fenômeno da Internet faz parte de um processo de gerenciamento das novas proposições. Pensando mais a longo prazo, a competitividade nas transações comerciais é uma das consequências dos procedimentos normalmente adotados. Todavia, o julgamento imparcial das eventualidades oferece uma interessante oportunidade para verificação do fluxo de informações. " />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="154dp"
+        android:orientation="vertical" />
+</RelativeLayout>
